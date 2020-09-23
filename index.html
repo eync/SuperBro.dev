@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- && Website info 
+	================= -->
+    <title>Superbro Minimalistic grid template | CSS-grid, HTML5 boilerplate</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="SuperBro is CSS Boilerplate. Easy to make websites with.">
+	<meta name="author" content="S.R.">
+
+	<!-- && Mobile Meta (viewport)
+	================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- && CSS files 
+	================= -->
+	<link rel="stylesheet" type="text/css" href="css/settings.css">
+	<link rel="stylesheet" type="text/css" href="css/superbro.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+
+	<!-- && Favicon
+	================= -->
+	<link rel="icon" type="image/png" href="img/favicon.ico">
+
+	<!-- && IE support
+	================= -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+  <div class="base">
+    <div class="grid">
+        <div class="item span12 ac jc" id="logo">
+            <h1 id="logotext">SuperBro</h1>
+            <h3 id="slogan">Uncomplicated CSS Template System</h3>
+        </div>
+
+        <div class="card span4"><h3>Easy to handle</h3>
+            <p>
+                This project was launched so it could be effortlesser to start new website designs while adopting modern CSS and HTML structures and make quick mockups or build full flexibile websites quickly.
+            </p>
+        </div>
+        <div class="card span4"><h3>Hassle Free</h3>
+            <p>
+                SuperBro is light, easy and quick. This boilerplate is super configuratable and helps you to quickly make websites.
+            </p>
+            <p>
+                <a href="https://github.com/eync/superbro/releases/tag/v0.1.2" title="github releases download" class="button">Download</a>
+                <a href="https://github.com/eync/superbro" title="github repo" class="button">Source code</a>
+            </p>
+        </div>
+        <div class="card span4"><h3>CSS Grid</h3>
+            <p>
+                This Framework/Boilerplate was built around CSS Grid. It allows us to create easily two-dimensional layouts and quickly build websites that are mobile friendly and flexible.
+            </p>
+        </div>
+        <div class="item span12 tc">
+            <h4>Showcases</h4>
+            <p>Websites that was made with SuperBro.</p> 
+            <ul> 
+                <li><h6>Mun Firma</h6> <img src="https://cdn.statically.io/screenshot/munfirma.fi" alt=""><br><a href="https://munfirma.fi/" class="button">Website</a></li>
+                <li><h6>Kallion Pesula</h6> <img src="https://cdn.statically.io/screenshot/kallionpesula.com" alt=""><br><a href="https://kallionpesula.com/" class="button">Website</a></li>
+                <li><h6>Sanjiv.info</h6> <img src="https://cdn.statically.io/screenshot/sanjiv.info/" alt=""><br><a href="https://sanjiv.info/" class="button">Website</a></li>
+            </ul>
+            <p>If you made website with <strong>SuperBro</strong>, let me know in <strong>Github</strong>.</p>
+        </div>
+        <div class="span12">
+            <h4>Grid</h4>
+            <p>SuperBro includes grid.css file that will do the work with both columns and rows. You can see below the example layout of the grid.</p>
+            <!-- Grid example START-->
+            <div class="grid example">
+                <div class="item span1 items exs">
+                    <p>ONE</p>
+                    <p><span class="detail">.span1</span></p>
+                </div>
+                <div class="item span11 items exs">
+                    <p>Eleven column</p>
+                    <p><span class="detail">.span11</span></p>
+                </div>
+                <div class="item span2 items exs">
+                    <p>two columns</p>
+                    <p><span class="detail">.span2</span></p>
+                </div>
+                <div class="item span10 items exs">
+                    <p>ten columns</p>
+                    <p><span class="detail">.span10</span></p>
+                </div>
+                <div class="item span3 items exs">
+                    <p>three columns</p>
+                    <p><span class="detail">.span3</span></p>
+                </div>
+                <div class="item span9 items exs">
+                    <p>nine columns</p>
+                    <p><span class="detail">.span9</span></p>
+                </div>
+                <div class="item span4 items exs">
+                    <p>four columns</p>
+                    <p><span class="detail">.span4</span></p>
+                </div>
+                <div class="item span8 items exs">
+                    <p>eight columns</p>
+                    <p><span class="detail">.span8</span></p>
+                </div>
+                <div class="item span5 items exs">
+                    <p>five columns</p>
+                    <p><span class="detail">.span5</span></p>
+                </div>
+                <div class="item span7 items exs">
+                    <p>seven columns</p>
+                    <p><span class="detail">.span7</span></p>
+                </div>   
+                <div class="item span10 row2" style="height:100%;">
+                    <p>ten columns + two rows</p>
+                    <p><span class="detail">.span10</span><span class="detail">.row2</span></p>
+                </div>
+                <div class="item items span2">
+                    <p>two columns</p>
+                    <p><span class="detail">.span2</span></p>
+                </div>
+                <div class="item items exs span1">
+                    <p>six columns</p>
+                    <p><span class="detail">.span1</span></p>
+                </div>
+                <div class="item items exs span1">
+                    <p>six columns</p>
+                    <p><span class="detail">.span1</span></p>
+                </div>
+                <div class="item span5 items exs">
+                    <p>five columns</p>
+                    <p><span class="detail">.span6</span></p>
+                </div>
+                <div class="item span7 items exs">
+                    <p>seven columns</p>
+                    <p><span class="detail">.span7</span></p>
+                </div>
+                <div class="item span4 items exs">
+                    <p>four columns</p>
+                    <p><span class="detail">.span4</span></p>
+                </div>
+                <div class="item span8 items exs">
+                    <p>eight columns</p>
+                    <p><span class="detail">.span8</span></p>
+                </div>
+                <div class="item span12 items exs">
+                    <p>twelve columns</p>
+                    <p><span class="detail">.span12</span></p>
+                </div>
+                <div class="item span9 items exs">
+                    <p>nine columns</p>
+                    <p><span class="detail">.span9</span></p>
+                </div>
+                <div class="item span3 items exs">
+                    <p>three columns</p>
+                    <p><span class="detail">.span3</span></p>
+                </div>
+                <div class="item span10 items exs">
+                    <p>ten columns</p>
+                    <p><span class="detail">.span10</span></p>
+                </div>
+                <div class="item span2 items exs">
+                    <p>two columns</p>
+                    <p><span class="detail">.span2</span></p>
+                </div>
+                <div class="item span11 items exs">
+                    <p>eleven columns</p>
+                    <p><span class="detail">.span11</span></p>
+                </div>
+                <div class="item span1 items exs">
+                    <p>one</p>
+                    <p><span class="detail">.span1</span></p>
+                </div>
+            </div>
+            <!-- Grid example END -->
+        </div>
+        <div class="span12">
+            <h4>Typography</h4>
+            <p>
+                Typography has been made to be scalable within' the limits of viewport and not to jump around. This is made possible by using vh units and basing them in to px units.
+            </p>
+        </div>
+        <div class="card span4 row2">
+            <h5>Theming</h5>
+            <p>Starting your project is fast as the project takes advantage of var() & calc() css functions. It also includes easy colors configuration for fast development in mind.</p>
+            <h5>Units & System</h5>
+            <p>SuperBro takes full advantage of EM, VH and VW units! This way it can be scalable through the fonts and let browser do so called calculations. Fastens development process.</p>
+            <h5>Flexibility</h5>
+            <p>The aim is to keep it minimal but configuratable as possible. Having best of both worlds is not easy. So if you decide to go with predefined values you can trust that I have configurated best possible line-heights and font-size for the project.</p>
+        </div>
+        <div class="span3">
+            <h5>headers</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>H1 </th>
+                        <th>calc(48px + 0.5vh)</th>
+                    </tr>
+                    <tr>
+                        <th>H2 </th>
+                        <th>calc(40px + 0.5vh)</th>
+                    </tr>
+                    <tr>
+                        <th>H3 </th>
+                        <th>calc(31px + 0.5vh)</th>
+                    </tr>
+                    <tr>
+                        <th>H4 </th>
+                        <th>calc(25px + 0.5vh)</th>
+                    </tr>
+                    <tr>
+                        <th>H5 </th>
+                        <th>calc(20px + 0.5vh)</th>
+                    </tr>
+                    <tr>
+                        <th>H6 </th>
+                        <th>calc(16px + 0.5vh)</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="span4">
+            <h5>Included CSS</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>grid.css </th>
+                        <th>The bones for this project</th>
+                    </tr>
+                    <tr>
+                        <th>settings.css </th>
+                        <th>HTML reset + Settings for colors and typography in general + Defaults for SuperBro</th>
+                    </tr>
+                    <tr>
+                        <th>yoursite-example.css</th>
+                        <th>Empty file preserved for your CSS stuff.</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="span3">
+            <h5>Supported Tags</h5>
+            <ul class="features">
+                <li>&lt;p&gt;		Basic Paragraph</li>
+                <li>&lt;strong&gt;	<strong>Bold text</strong></li>
+                <li>&lt;em&gt;		<em>Italic text</em></li>
+                <li>&lt;u&gt;		<u>Underlined text</u></li>
+                <li>&lt;a&gt;		<a href="#">Anchor Link </a></li>
+                <li>&lt;button&gt;	<button>Simple Button</button></li>
+            </ul>
+        </div>
+        <div class="span4">
+            <h5>Tables</h5>
+			<table style="width:100%;">
+				<thead>
+				  <tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Sex</th>
+					<th>Location</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>Sanjiv</td>
+					<td>26</td>
+					<td>Male</td>
+					<td>Helsinki</td>
+				  </tr>
+				  <tr>
+					<td>Link</td>
+					<td>16</td>
+					<td>Male</td>
+					<td>Hyrule</td>
+				  </tr>
+				</tbody>
+			  </table>
+        </div>
+        <div class="span5">
+            <h5>Forms</h5>
+            <form>
+            <label for="exampleEmailInput">Your email</label>
+			<input style="width:100%;" type="email" placeholder="test@test.com" id="exampleEmailInput">
+	    	<label for="exampleRecipientInput">Reason for contacting</label>
+	    	<select style="width:100%;" id="exampleRecipientInput">
+	    	  <option value="Option 1">Questions</option>
+	    	  <option value="Option 2">Admiration</option>
+	    	  <option value="Option 3">Can I get your number?</option>
+	    	</select>
+	        <label for="exampleMessage">Message</label>
+	        <textarea style="width:100%" placeholder="Hello there …" id="exampleMessage"></textarea>
+	        <label class="example-send-yourself-copy">
+	          <input type="checkbox">
+	          <span class="label-body">Send a copy to yourself</span>
+	        </label>
+    	    <input class="button" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="span7">
+            <h5>&lt;blockquote&gt; tag</h5>
+            <p>Quote example</p>
+            <blockquote>
+                <p>
+                God, grant me the serenity to accept the things I cannot change,
+				Courage to change the things I can,
+                And wisdom to know the difference. 
+                </p> 
+                <footer>- Reinhold Niebuhr<cite>Big Book of AA</cite></footer>  
+            </blockquote>
+        </div>
+        <div class="span12 jc">
+            <h5>&lt;code&gt; tag</h5>
+<code style="height:auto;width:50%">&lt;?php
+$love = "I am in Love"
+echo "My first PHP script!";
+echo "My status:". $love;
+?&gt; </code>
+        </div>
+        <div class="span7">
+            <h4>Credits & Inspiration</h4>
+            <p>
+                This project is maintained by <a href="https://github.com/eync" title="Sanjiv's Github">Sanjiv</a>. He is inspired by many of simple boilertemplates. Simplicity is the aim and key for the project and that it can be easily applied to any project as a starting plate.
+            </p>
+        </div>
+        <div class="span5">
+            <h4>contribute</h4>
+            <p>
+                <p>Help this project to grow and to fix issues by forking it! All suggestions are taken in to consideration!</p>
+                <p><a href="https://github.com/eync/superbro/tree/master" class="button">Fork it!</a></p>
+            </p>
+        </div>
+        <div class="item span12 tc" id="footer">
+            <p>Copyright © 2020 Sanjiv Rana - This site was made with <a href="https://github.com/eync/superbro/">SuperBro</a> boilertemplate.</p>
+        </div>
+
+    </div>
+</div>		
+
+
+</body>
+</html>
