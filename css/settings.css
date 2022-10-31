@@ -37,7 +37,7 @@ ol, ul {list-style: none; }
             /* you could define here for each tag line the color you would like to use */
 
             /* background color */           
-        --background-main: hsl(200, 98%, 18%);
+        --background-main: #0d2f41;
             /* LINK COLOR(s) */
         --alink:#ED217C;
         --alink-hover:rgb(250, 25, 126);
@@ -70,7 +70,7 @@ ol, ul {list-style: none; }
 
             /* BUTTON COLORS */
         --primary-button:var(--black-alt); --primary-button-bg:var(--gray-1); --primary-button-bdr:var(--greywhite); 
-        --primary-button-hover:var(--gray-4); --primary-button-hover-bg:var(--gray-6); --primary-button-hover-bdr:var(--primary-button-bdr:); 
+        --primary-button-hover:var(--white); --primary-button-hover-bg:#1f2536; --primary-button-hover-bdr:var(--primary-button-bdr);
 
         --a-button:var(--primary-button);--a-button-bg:var(--primary-button-bg);--a-button-bdr:var(--primary-button-bdr);
         --a-button-hover:var(--primary-button-hover);--a-button-hover-bg:var(--primary-button-hover-bg);--a-button-hover-bdr:var(--primary-button-hover-bdr);
