@@ -36,3 +36,7 @@ li {
     padding:0 0.3em;
 }
 img {width:250px;border-radius: 5px;}
+
+img#logo-image {
+    width: 460px;
+}
